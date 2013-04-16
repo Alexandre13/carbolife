@@ -1,8 +1,31 @@
 #summary Manual do Sistema
 
-= Introduction =
+= Descrição =
 
-Add your content here.
+Verifica quais tipos de alimentos são carboidratos simples(consumo do corpo mais rápido, portanto ruim, transforma tudo engerido em açucar no sangue)e composto que(consumo do corpo mais lento, portanto bom).
 
 
 <img src="https://carbolife.googlecode.com/files/Imagem1.png"></img>
+
+==Telas==
+
+Na tela principal escolha em qual tipo de carboidrato seja exibida a lista.
+<img src="https://carbolife.googlecode.com/files/CL01.png"></img>
+
+No menu escolha a opção Ok.
+<img src="https://carbolife.googlecode.com/files/CL02.png"></img>
+
+Será exibida a lista da opção escolhida a lista.
+<img src="https://carbolife.googlecode.com/files/CL03.png"></img>
+
+tmabém no menu existe a opção de Digitar, nela o usuário pode digitar o nome do alimento.
+<img src="https://carbolife.googlecode.com/files/CL04.png"></img>
+
+No menu existe a opção Verificar que confere se o alimento é simples ou complexo.
+<img src="https://carbolife.googlecode.com/files/CL05.png"></img>
+
+Exibe a resposta.
+<img src="https://carbolife.googlecode.com/files/CL06.png"></img>
+
+Caso não exista o alimento exibe uma mensagem.
+<img src="https://carbolife.googlecode.com/files/CL07.png"></img>
