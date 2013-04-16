@@ -10,22 +10,22 @@ Verifica quais tipos de alimentos são carboidratos simples(consumo do corpo mai
 ==Telas==
 
 Na tela principal escolha em qual tipo de carboidrato seja exibida a lista.
-<img src="https://carbolife.googlecode.com/files/CL01.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL01.jpeg"></img>
 
 No menu escolha a opção Ok.
-<img src="https://carbolife.googlecode.com/files/CL02.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL02.jpeg"></img>
 
 Será exibida a lista da opção escolhida a lista.
-<img src="https://carbolife.googlecode.com/files/CL03.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL03.jpeg"></img>
 
 tmabém no menu existe a opção de Digitar, nela o usuário pode digitar o nome do alimento.
-<img src="https://carbolife.googlecode.com/files/CL04.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL04.jpeg"></img>
 
 No menu existe a opção Verificar que confere se o alimento é simples ou complexo.
-<img src="https://carbolife.googlecode.com/files/CL05.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL05.jpeg"></img>
 
 Exibe a resposta.
-<img src="https://carbolife.googlecode.com/files/CL06.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL06.jpeg"></img>
 
 Caso não exista o alimento exibe uma mensagem.
-<img src="https://carbolife.googlecode.com/files/CL07.png"></img>
+<img src="https://carbolife.googlecode.com/files/CL07.jpeg"></img>
