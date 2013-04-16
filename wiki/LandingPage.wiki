@@ -13,19 +13,19 @@ Na tela principal escolha em qual tipo de carboidrato seja exibida a lista.
 <img src="https://carbolife.googlecode.com/files/CL01.JPG"></img>
 
 No menu escolha a opção Ok.
-<img src="https://carbolife.googlecode.com/files/CL02.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL02.JPG"></img>
 
 Será exibida a lista da opção escolhida a lista.
-<img src="https://carbolife.googlecode.com/files/CL03.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL03.JPG"></img>
 
 tmabém no menu existe a opção de Digitar, nela o usuário pode digitar o nome do alimento.
-<img src="https://carbolife.googlecode.com/files/CL04.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL04.JPG"></img>
 
 No menu existe a opção Verificar que confere se o alimento é simples ou complexo.
-<img src="https://carbolife.googlecode.com/files/CL05.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL05.JPG"></img>
 
 Exibe a resposta.
-<img src="https://carbolife.googlecode.com/files/CL06.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL06.JPG"></img>
 
 Caso não exista o alimento exibe uma mensagem.
-<img src="https://carbolife.googlecode.com/files/CL07.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL07.JPG"></img>
