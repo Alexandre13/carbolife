@@ -1,0 +1,8 @@
+#summary Manual do Sistema
+
+= Introduction =
+
+Add your content here.
+
+
+<img src="https://carbolife.googlecode.com/files/imagem1.png"></img>
