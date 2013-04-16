@@ -150,6 +150,15 @@
                         <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R22"/>
                         <Property name="command" typeID="Cjavax.microedition.lcdui.Command" value="R45"/>
                     </Component>
+                    <Component componentID="51" typeID="Cjavax.microedition.lcdui.TextField">
+                        <Property name="instanceName" typeID="Pjava.lang.String" value="VwriteTextField"/>
+                        <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
+                        <Property name="label" typeID="Pjava.lang.String" value="VDigite o alimento: (FAVOR DIGITAR TUDO MAISCULO E SEM ACENTO)"/>
+                        <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
+                        <Property name="text" typeID="Pjava.lang.String" value="V"/>
+                        <Property name="maxSize" typeID="Pint" value="V32"/>
+                        <Property name="constraints" typeID="Pint" value="V0"/>
+                    </Component>
                     <Component componentID="49" typeID="C#CommandEventSource">
                         <Property name="eventHandler" typeID="C#EventHandler" value="R50"/>
                         <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R22"/>
@@ -158,15 +167,6 @@
                             <Property name="eventSource" typeID="C#EventSource" value="R49"/>
                             <Property name="displayable" typeID="Cjavax.microedition.lcdui.Displayable" value="R14"/>
                         </Component>
-                    </Component>
-                    <Component componentID="51" typeID="Cjavax.microedition.lcdui.TextField">
-                        <Property name="instanceName" typeID="Pjava.lang.String" value="VwriteTextField"/>
-                        <Property name="codeGenerated" typeID="Pboolean" value="Vtrue"/>
-                        <Property name="label" typeID="Pjava.lang.String" value="VDigite o alimento: (FAVOR DIGITAR TUDO MAISCULO)"/>
-                        <Property name="itemCommandListener" typeID="C#ItemCommandListener" value="R17"/>
-                        <Property name="text" typeID="Pjava.lang.String" value="V"/>
-                        <Property name="maxSize" typeID="Pint" value="V32"/>
-                        <Property name="constraints" typeID="Pint" value="V0"/>
                     </Component>
                 </Component>
             </Component>

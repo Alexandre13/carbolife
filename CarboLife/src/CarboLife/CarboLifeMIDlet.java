@@ -114,10 +114,11 @@ public class CarboLifeMIDlet extends MIDlet implements CommandListener {
             } else if (command == okCommand1) {//GEN-LINE:|7-commandAction|5|35-preAction
                 // write pre-action user code here
 //GEN-LINE:|7-commandAction|6|35-postAction
-               if(choiceGroup.isSelected(0)){
-                   resultStringItem.setText("AÇÚCAR DE MESA, AMEIXA, AMORA PRETA, ARROZ, BANANA, BARRAS DE CHOCOLATE, BEBIDAS CARBONATADAS, BOLINHOS, BOLO,CEREAIS EMBALADOS,DERIVADOS DO LEITE,CHOCOLATE,CEREJA,DOCES,FRAMBOESA,GROSELHA,KIWI,LARANJA,LEITE,LICHIA,LIMÃO,MACARRÃO (FARINHA BRANCA),MAÇÃ,MEL,MELADOS,MELÃO,MIRTILO (BLUEBERRY),MORANGO");
-                }if(choiceGroup.isSelected(1)){
-                resultStringItem.setText("ESPINAFRE,  ABOBRINHA, ALCACHOFRAS, ALFACE, ARROZ INTEGRAL, ASPARGOS,AVEIA, BATATA, BATATA DOCE, BERINJELA, BOLACHA DE ÁGUA, BRÓCOLIS, CEBOLA, CENOURA, CENTEIO, CEREAIS, CEVADA,COUVE-FLOR, DAMASCOS SECOS, ERVILHA, FARINHA DE TRIGO INTEGRAL, FEIJÃO,FEIJÃO BRANCO, FIBRAS");
+              //Aqui ocorre a verificação de qual item foi selecionado..Se é Simples ou complexo
+                if(choiceGroup.isSelected(0)){
+                   resultStringItem.setText("SIMPLES:AÇÚCAR DE MESA, AMEIXA, AMORA PRETA, ARROZ, BANANA, BARRAS DE CHOCOLATE, BEBIDAS CARBONATADAS, BOLINHOS, BOLO,CEREAIS EMBALADOS,DERIVADOS DO LEITE,CHOCOLATE,CEREJA,DOCES,FRAMBOESA,GROSELHA,KIWI,LARANJA,LEITE,LICHIA,LIMÃO,MACARRÃO (FARINHA BRANCA),MAÇÃ,MEL,MELADOS,MELÃO,MIRTILO (BLUEBERRY),MORANGO");
+                }else if(choiceGroup.isSelected(1)){
+                resultStringItem.setText("COMPOSTO:ESPINAFRE,  ABOBRINHA, ALCACHOFRAS, ALFACE, ARROZ INTEGRAL, ASPARGOS,AVEIA, BATATA, BATATA DOCE, BERINJELA, BOLACHA DE ÁGUA, BRÓCOLIS, CEBOLA, CENOURA, CENTEIO, CEREAIS, CEVADA,COUVE-FLOR, DAMASCOS SECOS, ERVILHA, FARINHA DE TRIGO INTEGRAL, FEIJÃO,FEIJÃO BRANCO, FIBRAS");
                 }
             }//GEN-BEGIN:|7-commandAction|7|49-preAction
         } else if (displayable == formCarboLifeWrite) {
@@ -126,12 +127,17 @@ public class CarboLifeMIDlet extends MIDlet implements CommandListener {
                 switchDisplayable(null, getFormCarboLifeList());//GEN-LINE:|7-commandAction|8|49-postAction
                 // write post-action user code here
             } else if (command == verificaCommand) {//GEN-LINE:|7-commandAction|9|46-preAction
+              //variavel text do tipo String criada para facilitar a comparação das Strings que vem na sequencia
                 String text;
 //GEN-LINE:|7-commandAction|10|46-postAction
 
                 text=writeTextField.getString();
-                if(text.equals("OXICOCO")||text.equals("PÃO")){
-                respStringItem.setText("É simples");
+                if(text.equals("OXICOCO")||text.equals("PAO")||text.equals("PERA")||text.equals("PESSEGO")||text.equals("REFRIGERANTE")||text.equals("SUCO")||text.equals("TORANJA")||text.equals("VERDURAS")){
+                respStringItem.setText("O carboidrato é simples");
+                }else if(text.equals("GERGELIM")||text.equals("GRANOLA")||text.equals("INHAME")||text.equals("LEGUMES")||text.equals("LEITE DESNATADO")||text.equals("LENTILHA")||text.equals("MANDIOCA")||text.equals("MANDIOQUINHA")||text.equals("MASSAS")||text.equals("MILHO")||text.equals("MORANGO")||text.equals("NABO")||text.equals("PAO CENTEIO")||text.equals("PAO INTEGRAL")||text.equals("PEPINO")||text.equals("PICKLES")||text.equals("AMEIXA SECA")||text.equals("QUIABO")||text.equals("QUINOA")||text.equals("RABANETE")||text.equals("REPOLHO")||text.equals("SOJA")||text.equals("LINHACA")){
+                respStringItem.setText("O carboidrato é composto");
+                }else{
+                respStringItem.setText("O alimento não é um carboidrato ou não consta ainda na base de dados!");
                 }
             }//GEN-BEGIN:|7-commandAction|11|7-postCommandAction
         }//GEN-END:|7-commandAction|11|7-postCommandAction
@@ -371,7 +377,7 @@ public class CarboLifeMIDlet extends MIDlet implements CommandListener {
     public TextField getWriteTextField() {
         if (writeTextField == null) {//GEN-END:|51-getter|0|51-preInit
             // write pre-init user code here
-            writeTextField = new TextField("Digite o alimento: (FAVOR DIGITAR TUDO MAISCULO)", "", 32, TextField.ANY);//GEN-LINE:|51-getter|1|51-postInit
+            writeTextField = new TextField("Digite o alimento: (FAVOR DIGITAR TUDO MAISCULO E SEM ACENTO)", "", 32, TextField.ANY);//GEN-LINE:|51-getter|1|51-postInit
             // write post-init user code here
         }//GEN-BEGIN:|51-getter|2|
         return writeTextField;
