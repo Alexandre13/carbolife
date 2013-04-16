@@ -10,7 +10,7 @@ Verifica quais tipos de alimentos são carboidratos simples(consumo do corpo mai
 ==Telas==
 
 Na tela principal escolha em qual tipo de carboidrato seja exibida a lista.
-<img src="https://carbolife.googlecode.com/files/CL01.jpg"></img>
+<img src="https://carbolife.googlecode.com/files/CL01.JPG"></img>
 
 No menu escolha a opção Ok.
 <img src="https://carbolife.googlecode.com/files/CL02.jpg"></img>
