@@ -3,16 +3,18 @@
 = Descrição =
 
 Verifica quais tipos de alimentos são carboidratos simples(consumo do corpo mais rápido, portanto ruim, transforma tudo engerido em açucar no sangue)e composto que(consumo do corpo mais lento, portanto bom).
-
+</BR>
 
 <img src="https://carbolife.googlecode.com/files/Imagem1.png"></img>
 
 ==Telas==
 
 Na tela principal escolha em qual tipo de carboidrato seja exibida a lista.
+</BR>
 <img src="https://carbolife.googlecode.com/files/CL01.JPG"></img>
 
 No menu escolha a opção Ok.
+</BR>
 <img src="https://carbolife.googlecode.com/files/CL02.JPG"></img>
 
 Será exibida a lista da opção escolhida a lista.
